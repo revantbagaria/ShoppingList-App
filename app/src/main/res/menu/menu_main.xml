@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:orderInCategory="80"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@mipmap/toolbar_icon"
+        android:id="@+id/toolbar_logo"/>
+
+    <item
+        android:id="@+id/action_add_from_toolbar"
+        android:orderInCategory="99"
+        android:title="Add Item"
+        android:textColor="#000000"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_delete_all_from_toolbar"
+        android:orderInCategory="100"
+        android:textColor="#000000"
+        android:title="Delete All"
+        app:showAsAction="always" />
+
+</menu>
+
+
